@@ -1,14 +1,12 @@
 {
   "name": "stancubyt-api",
   "version": "1.0.0",
-  "description": "Proxy API pentru StancuBYT - Protejează API key",
-  "main": "api/proxy.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/proxy.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "node-fetch": "^2.6.7"
+    "cors": "^2.8.5"
   }
 }
